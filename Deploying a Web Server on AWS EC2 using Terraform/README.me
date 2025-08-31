@@ -1,93 +1,53 @@
-🚀 AWS EC2 with Apache using Terraform
+# AWS EC2 Apache Web Server with Terraform
 
-This project provisions an AWS EC2 instance using Terraform and automatically configures it with Apache Web Server.
+This project provisions an **AWS EC2 instance** using **Terraform** and automatically deploys an **Apache web server**. The server hosts a simple HTML page created via a user data script.
 
-The instance is launched inside the default VPC with a security group that allows SSH (22) and HTTP (80) traffic. Apache serves a custom HTML page after deployment.
+---
 
-📌 Features
+## Features
+- Launches an **EC2 instance** in the default VPC.
+- Creates a **Security Group** to allow SSH (22) and HTTP (80).
+- Installs and configures **Apache** automatically.
+- Serves a sample **HTML webpage**.
 
-Infrastructure as Code (IaC) using Terraform
+---
 
-Launches an EC2 instance in AWS
+## Project Files
+- `main.tf` → Terraform configuration for EC2 & Security Group  
+- `variables.tf` → Variables for region, AMI, instance type, key pair  
+- `user.sh` → Script to install Apache and add webpage  
+- `outputs.tf` → Displays EC2 public IP after deployment  
 
-Configures a Security Group with:
+---
 
-SSH (22) open for remote access
+## Usage
+1. Initialize Terraform:
+   ```bash
+   terraform init
+   ```
+2. Apply configuration:
+   ```bash
+   terraform apply -auto-approve
+   ```
+3. Get the instance public IP:
+   ```bash
+   terraform output
+   ```
+4. Open browser:
+   ```
+   http://<PUBLIC_IP>
+   ```
 
-HTTP (80) open for web traffic
+---
 
-Installs Apache HTTPD automatically using User Data
+## Example Webpage
+```html
+<h1>Myself Jaspal Gundla and this is the webpage I created using EC2 in AWS with Terraform (Apache)</h1>
+```
 
-Hosts a simple custom HTML webpage
+---
 
-🛠️ Tech Stack
-
-Terraform
-
-AWS EC2
-
-AWS VPC (Default)
-
-Apache HTTPD
-
-📂 Project Structure
-├── main.tf          # Terraform configuration file
-├── variables.tf     # Input variables (region, AMI, key, instance type)
-├── terraform.tfvars # Variable values
-└── README.md        # Project documentation
-
-⚙️ Setup Instructions
-Prerequisites
-
-AWS account
-
-AWS CLI configured (aws configure)
-
-Terraform installed (terraform -v)
-
-SSH key pair created in AWS
-
-Steps
-
-Clone the Repository
-
-git clone https://github.com/TheJ10/AWS-Terraform-projects.git
-cd AWS-Terraform-projects
-
-
-Initialize Terraform
-
-terraform init
-
-
-Validate the configuration
-
-terraform validate
-
-
-Apply and Create Resources
-
-terraform apply -auto-approve
-
-
-Access Your EC2 Instance
-
-Copy the public IP from Terraform output or AWS Console
-
-Open in browser:
-
-http://<EC2-Public-IP>
-
-
-You should see your custom Apache page
-
-🧹 Cleanup
+## Clean Up
+```bash
 terraform destroy -auto-approve
-
-📸 Screenshots
-
-(Add screenshots of AWS Console EC2 instance, Security Groups, and your Apache webpage here.)
-
-✨ Author
-
-Jaspal Gundla
+```
