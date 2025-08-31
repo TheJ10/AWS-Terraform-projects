@@ -36,7 +36,7 @@ This project provisions an **AWS EC2 instance** using **Terraform** and automati
 ---
 
 ## Output
-
+![image alt](https://github.com/TheJ10/AWS-Terraform-projects/blob/ba127d49160e3317d3165534482910522e14866b/Deploying%20a%20Web%20Server%20on%20AWS%20EC2%20using%20Terraform/screenshots/outputec2.png)
 
 ---
 
