@@ -63,7 +63,8 @@ This project provisions an **AWS EC2 instance** using **Terraform** and automati
 ---
 
 ## Instance Screenshot
-![image alt]()
+![image alt](https://github.com/TheJ10/AWS-Terraform-projects/blob/e55dd6e3e76c6a549d3658f636018489f8dddf86/Deploying%20a%20Web%20Server%20on%20AWS%20EC2%20using%20Terraform/screenshots/instance.png)
+
 ---
 
 ## Clean Up
