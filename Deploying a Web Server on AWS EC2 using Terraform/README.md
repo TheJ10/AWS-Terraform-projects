@@ -4,7 +4,7 @@ This project provisions an **AWS EC2 instance** using **Terraform** and automati
 
 ---
 
-## Features
+## Project Overview
 - Launches an **EC2 instance** in the default VPC.
 - Creates a **Security Group** to allow SSH (22) and HTTP (80).
 - Installs and configures **Apache** automatically.
@@ -15,11 +15,27 @@ This project provisions an **AWS EC2 instance** using **Terraform** and automati
 ## Project Files
 - `main.tf` → Terraform configuration for EC2 & Security Group  
 - `variables.tf` → Variables for region, AMI, instance type, key pair   
-- `outputs.tf` → Displays EC2 public IP after deployment  
+- `outputs.tf` → Displays EC2 public IP after deployment
+- `README.ME` → Documentation
+---
+
+## 🛠️ Technologies Used
+- **Terraform** – Infrastructure as Code tool
+- **AWS EC2** – Virtual server instance
+- **Apache HTTP Server** – Web server
+  
+---
+
+## How It Works
+1. Terraform initializes the AWS provider.
+2. Security Group is created allowing SSH and HTTP traffic.
+3. EC2 instance is launched inside the default VPC with a public IP.
+4. User data installs and starts **Apache**, then serves a custom HTML page.
+5. The public IP of the EC2 instance can be used to access the webpage.
 
 ---
 
-## Usage
+## Deployment Steps
 1. Initialize Terraform:
    ```bash
    terraform init
@@ -41,7 +57,7 @@ This project provisions an **AWS EC2 instance** using **Terraform** and automati
 ---
 
 ## Example Webpage
-
+![image alt](https://github.com/TheJ10/AWS-Terraform-projects/blob/a7b7ede1297ac575204553d5c4f116574f2050b5/Deploying%20a%20Web%20Server%20on%20AWS%20EC2%20using%20Terraform/screenshots/webpageec2.png)
 
 ---
 
@@ -49,4 +65,9 @@ This project provisions an **AWS EC2 instance** using **Terraform** and automati
 ```bash
 terraform destroy -auto-approve
 ```
+
+---
+
+## Author
+Jaspal Gundla
 
