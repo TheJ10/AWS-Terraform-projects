@@ -13,13 +13,14 @@ This project provisions an **AWS EC2 instance** using **Terraform** and automati
 ---
 
 ## Project Files
-- `main.tf` → Terraform configuration for EC2 & Security Group  
-- `variables.tf` → Variables for region, AMI, instance type, key pair   
-- `outputs.tf` → Displays EC2 public IP after deployment
+- `ec2main.tf` → Terraform configuration for EC2 & Security Group  
+- `ec2variables.tf` → Variables for region, AMI, instance type, key pair   
+- `ec2outputs.tf` → Displays EC2 public IP after deployment
 - `README.ME` → Documentation
+
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **Terraform** – Infrastructure as Code tool
 - **AWS EC2** – Virtual server instance
 - **Apache HTTP Server** – Web server
@@ -59,6 +60,10 @@ This project provisions an **AWS EC2 instance** using **Terraform** and automati
 ## Example Webpage
 ![image alt](https://github.com/TheJ10/AWS-Terraform-projects/blob/a7b7ede1297ac575204553d5c4f116574f2050b5/Deploying%20a%20Web%20Server%20on%20AWS%20EC2%20using%20Terraform/screenshots/webpageec2.png)
 
+---
+
+## Instance Screenshot
+![image alt]()
 ---
 
 ## Clean Up
