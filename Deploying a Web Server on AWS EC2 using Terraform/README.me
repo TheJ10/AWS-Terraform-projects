@@ -1,1 +1,93 @@
+🚀 AWS EC2 with Apache using Terraform
 
+This project provisions an AWS EC2 instance using Terraform and automatically configures it with Apache Web Server.
+
+The instance is launched inside the default VPC with a security group that allows SSH (22) and HTTP (80) traffic. Apache serves a custom HTML page after deployment.
+
+📌 Features
+
+Infrastructure as Code (IaC) using Terraform
+
+Launches an EC2 instance in AWS
+
+Configures a Security Group with:
+
+SSH (22) open for remote access
+
+HTTP (80) open for web traffic
+
+Installs Apache HTTPD automatically using User Data
+
+Hosts a simple custom HTML webpage
+
+🛠️ Tech Stack
+
+Terraform
+
+AWS EC2
+
+AWS VPC (Default)
+
+Apache HTTPD
+
+📂 Project Structure
+├── main.tf          # Terraform configuration file
+├── variables.tf     # Input variables (region, AMI, key, instance type)
+├── terraform.tfvars # Variable values
+└── README.md        # Project documentation
+
+⚙️ Setup Instructions
+Prerequisites
+
+AWS account
+
+AWS CLI configured (aws configure)
+
+Terraform installed (terraform -v)
+
+SSH key pair created in AWS
+
+Steps
+
+Clone the Repository
+
+git clone https://github.com/TheJ10/AWS-Terraform-projects.git
+cd AWS-Terraform-projects
+
+
+Initialize Terraform
+
+terraform init
+
+
+Validate the configuration
+
+terraform validate
+
+
+Apply and Create Resources
+
+terraform apply -auto-approve
+
+
+Access Your EC2 Instance
+
+Copy the public IP from Terraform output or AWS Console
+
+Open in browser:
+
+http://<EC2-Public-IP>
+
+
+You should see your custom Apache page
+
+🧹 Cleanup
+terraform destroy -auto-approve
+
+📸 Screenshots
+
+(Add screenshots of AWS Console EC2 instance, Security Groups, and your Apache webpage here.)
+
+✨ Author
+
+Jaspal Gundla
