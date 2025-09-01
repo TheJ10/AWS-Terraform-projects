@@ -11,7 +11,7 @@ Each project includes:
 
 ## Projects Included
 1. **EC2 Apache Web Server** – Launches EC2 with Apache hosting a sample webpage.  
-2. **S3 Static Website** *(upcoming)* – Deploys a static website on S3 with public access.  
+2. **S3 Static Website** – Deploys a static website on S3 with public access.  
 3. **Custom VPC Setup** *(upcoming)* – Creates VPC, subnets, route tables, and Internet Gateway.  
 4. **RDS Database Deployment** *(upcoming)* – Provisions a managed database instance.  
 
@@ -27,5 +27,8 @@ Each project includes:
 - Git & GitHub
 
 ---
+
+## Author
+Jaspal Gundla
 
 ⭐ Star this repo if you find it helpful!
