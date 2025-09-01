@@ -55,18 +55,19 @@ The bucket is set up for **public access** with a bucket policy and enabled for 
 ---
 
 ## Output
-![image alt]()
+![image alt](https://github.com/TheJ10/AWS-Terraform-projects/blob/a110aa178ced305e6d6252f93c7eb07f89e4e7f9/Terraform-aws-s3-static-website/screenshots/s3output.png)
 
 ---
 
 ## Example Webpage
-![image alt]()
+![image alt](https://github.com/TheJ10/AWS-Terraform-projects/blob/a110aa178ced305e6d6252f93c7eb07f89e4e7f9/Terraform-aws-s3-static-website/screenshots/s3web.png)
 
 ---
 
-## Bucket Screenshot
-![image alt]()
-
+## Bucket Screenshots
+![image alt](https://github.com/TheJ10/AWS-Terraform-projects/blob/a110aa178ced305e6d6252f93c7eb07f89e4e7f9/Terraform-aws-s3-static-website/screenshots/bucketcreation.png)
+![image alt](https://github.com/TheJ10/AWS-Terraform-projects/blob/a110aa178ced305e6d6252f93c7eb07f89e4e7f9/Terraform-aws-s3-static-website/screenshots/s3cli.png)
+   
 ---
 
 ## Clean Up
