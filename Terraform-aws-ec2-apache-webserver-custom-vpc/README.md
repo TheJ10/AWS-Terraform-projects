@@ -58,7 +58,7 @@ This project provisions an **Amazon Linux EC2 instance** inside a **Custom VPC**
 ---
 
 ## Output
-![image alt](https://github.com/TheJ10/AWS-Terraform-projects/blob/ba127d49160e3317d3165534482910522e14866b/Deploying%20a%20Web%20Server%20on%20AWS%20EC2%20using%20Terraform/screenshots/outputec2.png)
+![image alt](https://github.com/TheJ10/AWS-Terraform-projects/blob/cb57fb095296d03beaa431fbcf2c6ae6c573b6d3/Terraform-aws-ec2-apache-webserver-custom-vpc/screenshots/outvpc.png)
 
 
 ---
@@ -69,7 +69,7 @@ This project provisions an **Amazon Linux EC2 instance** inside a **Custom VPC**
 ---
 
 ## Instance Screenshot
-![image alt](https://github.com/TheJ10/AWS-Terraform-projects/blob/e55dd6e3e76c6a549d3658f636018489f8dddf86/Deploying%20a%20Web%20Server%20on%20AWS%20EC2%20using%20Terraform/screenshots/instance.png)
+![image alt](https://github.com/TheJ10/AWS-Terraform-projects/blob/cb57fb095296d03beaa431fbcf2c6ae6c573b6d3/Terraform-aws-ec2-apache-webserver-custom-vpc/screenshots/insvpc.png)
 
 ---
 
