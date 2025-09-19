@@ -64,7 +64,7 @@ This project provisions an **Amazon Linux EC2 instance** inside a **Custom VPC**
 ---
 
 ## Example Webpage
-![image alt](https://github.com/TheJ10/AWS-Terraform-projects/blob/a7b7ede1297ac575204553d5c4f116574f2050b5/Deploying%20a%20Web%20Server%20on%20AWS%20EC2%20using%20Terraform/screenshots/webpageec2.png)
+![image alt](https://github.com/TheJ10/AWS-Terraform-projects/blob/f478e9d95226215140ffd959f6509b2f6ccb8fae/Terraform-aws-ec2-apache-webserver-custom-vpc/screenshots/webvpc.png)
 
 ---
 
@@ -74,6 +74,7 @@ This project provisions an **Amazon Linux EC2 instance** inside a **Custom VPC**
 ---
 
 ## Clean Up
+To delete all resources:
 ```bash
 terraform destroy -auto-approve
 ```
